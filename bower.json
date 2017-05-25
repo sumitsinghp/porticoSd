@@ -1,0 +1,17 @@
+{
+  "name": "portico-sd",
+  "version": "0.0.2",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "portico-sd":"G:/Projects/JAST/iSold/Code/porticoSd/porticoSd/.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
