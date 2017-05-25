@@ -2,6 +2,7 @@
   'use strict';
   // function TreeViewController($scope, $routeParams, StageHelper, LevelService, AssetMapService, TabularService) {
   function TreeViewController($scope, $routeParams, StageHelper, LevelService, AssetMapService) {
+    alert('version 1.2');
     var sublevels = LevelService.getSubLevels($routeParams.id)
     console.log('Sub Levels: ', sublevels);
     var getLevel = LevelService.getLevel($routeParams.id)
