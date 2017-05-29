@@ -95,7 +95,7 @@
     };
   }
 
-  var app = angular.module('app'),
+  var app = angular.module('ngPorticoSD'),
       requires = [
         '$q',
         '$log',
@@ -104,7 +104,7 @@
         'ngCartosCore.services.LevelService',
         'ngCartosCore.services.AssetService',
         'ngCartosCore.services.AssetMapService',
-        TabularService
+          PorticoSDService
       ];
-  app.factory('ngTreeView.services.TabularService', requires);
+  app.factory('ngPorticoSD.services.PorticoSDService', requires);
 }());
